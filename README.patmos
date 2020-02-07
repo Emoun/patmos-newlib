@@ -27,7 +27,7 @@ In order to configure the build correctly, create a build directory
 (we will assume 'build') and use the following command in it, assuming LLVM/Clang 
 are installed under ${LLVM_DIR}:
 
-  configure  --target=patmos-unknown-unknown-elf AR_FOR_TARGET=ar \
+  ./configure  --target=patmos-unknown-unknown-elf AR_FOR_TARGET=ar \
     RANLIB_FOR_TARGET=ranlib \
     LD_FOR_TARGET=ld \
     CC_FOR_TARGET=${LLVM_DIR}/bin/patmos-clang \
